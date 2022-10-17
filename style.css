@@ -2,8 +2,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-image: url("tumblr_7c88c24dd4501217a38b4e63286fe6dd_c93baedf_2048.png");
-    background-repeat: repeat;
+    background-image: url("read-g22b2f69a9_1920.png");
 }
 
 .content {
@@ -15,10 +14,15 @@ body {
     height: 100vh;
 }
 
+.boxCard {
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.205);
+    border: 1px solid #ffffff94;
+}
+
 .card {
     background: #FFF;
-    border-radius: 20px;
-    height: 420px;
+    height: 445px;
     width: 500px;
     overflow: hidden;
     background-color: #efecec9c;
@@ -26,7 +30,7 @@ body {
 }
 
 .mediaCard {
-    background: url(tumblr_nb3xz7aoxf1sn6e21o1_1280.jpg) center/cover;
+    background: url(alone.png) center/cover;
     height: 200px;
     width: 100%;
 }
