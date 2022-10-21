@@ -1,0 +1,22 @@
+@import url(styles/principal.css);
+
+:root {
+    --cor-degrade: linear-gradient(35deg, #95BBE9 35.49%, #F1B8D2 81.37%) no-repeat;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --rosa: #F1B8D2;
+    --box-shadow: 4px 4px 100px 4px rgba(0, 0, 0, 0.25);
+    --color-text: rgba(0, 0, 0, 0.6);
+    --sombra-texto: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --sombra-claro: 4px 5px 5px rgb(255 176 255 / 30%);
+}
+
+html {  
+    height: 100%;
+}
+
+body {
+    background: var(--cor-degrade);
+    background-repeat: repeat;
+}
+
