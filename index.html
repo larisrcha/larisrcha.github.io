@@ -2,26 +2,81 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Bunana</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
+
+
+    <title>Portfólio</title>
+
 </head>
-
 <body>
-    
-    <main class="card">
-        <div class="logo"> </div>
-            <h1>Olá, sou Anya!</h1>
-            <h2>Sempre pensei que eu era uma pessoa sem razão para viver, mas suponho que estava errada. Mesmo alguém como eu pode ter um propósito na vida.</h2>
-            <img src="img/💿.jpeg" class="icone">
-        <div class="botões">
-            <a href="https://github.com/larisrcha"><button class="primeiro-botão">Github</button></a>
-            <a href="#"><button class="segundo-botão">Let's Talk!</button></a>
-        </div>
-     </main>
 
-    
+<!-- Navbar -->
+
+    <nav id="desktop-nav">
+        <div class="logo">LR</div>
+
+        <div>
+            <ul class="nav-links">
+				<li><a href="#">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="mobile-nav">
+        <div class="logo">Larissa Rocha</div>
+        <div class="mobile-menu">
+            <div class="mobile-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#experiencias" onclick="toggleMenu()">Experiências</a></li>
+                <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+	<!--- <section id="perfil">
+		<div class="secao__pic-container">
+			<img src="/assets/img/profile1.png">
+		</div>
+		<div class="secao__texto">
+			<p class="secao__texto__p1">Olá, me chamo</p>
+			<h1 class="titulo">Larissa Rocha</h1>
+			<p class="secao__texto__p2">Frontend Developer</p>
+
+			<div class="bnt-container">
+				<button class="btn btn-color-2" onclick="window.open('./nana.pdf')">Baixar CV
+				</button>
+			</div>
+
+			<div id="social-container">
+				<img src="./assets/img/linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/larissa-rochas/'">
+				<img src="./assets/img/github1.png" class="icon" onclick="location.href='https://github.com/larisrcha'">
+			</div>
+
+		</div>
+	</section> -->
+
+
+	<main id="root"></main>
+
+
+	<script src="/assets/js/script.js"></script>
+
+	<script src="index.js" type="module"></script>
+
 
 </body>
 </html>

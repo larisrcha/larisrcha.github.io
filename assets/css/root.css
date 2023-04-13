@@ -1,0 +1,15 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --hover-color: #a1a1a1;
+
+    --rgb-white1: rgb(255, 255, 255);
+
+    --rgb-black1: rgb(15, 15, 15);
+
+    --rgb-grey1: rgb(181, 181, 181);
+    --rgb-grey2: rgb(85, 85, 85);
+    --rgb-grey3: rgb(53, 53, 53);
+    
+    
+}
