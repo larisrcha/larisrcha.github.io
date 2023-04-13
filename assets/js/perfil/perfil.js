@@ -17,7 +17,7 @@ export default () => {
 			</div>
 
 			<div id="social-container">
-				<img src="./assets/img/linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/larissa-rochas/'">
+				<img src="./assets/img/Linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/larissa-rochas/'">
 				<img src="./assets/img/github.png" class="icon" onclick="location.href='https://github.com/larisrcha'">
 			</div>
 
