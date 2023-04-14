@@ -1,8 +1,40 @@
+@media screen and (max-width: 1400px) {
+    .sobre-container {
+        flex-wrap: wrap;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #mobile-nav {
         display: flex;
+    }
+    .secao__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .sobre-container {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #perfil {
+        height: 71vh;
+        margin-bottom: 0;
+    }
+
+    .secao__texto {
+        margin-left: 22px;
+        align-self: center;
+        text-align: center;
+    }
+
+    #sidebar {
+        display: none;
     }
 }

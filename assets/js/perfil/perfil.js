@@ -3,9 +3,12 @@ export default () => {
 
     const template = `
     <section id="perfil">
-		<div class="secao__pic-container">
-			<img src="/assets/img/profile1.png">
+
+	<div id="sidebar">
+		<div id="icon">
+			<img src="./assets/img/cat.jpg">
 		</div>
+	</div>
 		<div class="secao__texto">
 			<p class="secao__texto__p1">Olá, me chamo</p>
 			<h1 class="titulo">Larissa Rocha</h1>
